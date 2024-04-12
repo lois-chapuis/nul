@@ -1,0 +1,114 @@
+/* Colors and fonts */
+
+body {
+	background: rgb(244, 200, 247);;
+	color: rgb(226, 85, 237);
+	font-family: Avenir Next;
+	font-size: 17px;
+
+}
+
+h1, h2, h3 {
+	font-family: Avenir Next;
+}
+
+h1 {
+	color : violet;
+	font-size: 32px;
+	font-weight: 300px;
+}
+
+h2 {
+	color: rgb(228, 77, 240);
+	font-size: 24px;
+	font-weight: 300px;
+}
+
+a {
+	color: violet;
+	font-weight: 300px;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+a:hover {
+	color : violet;
+	text-decoration: none;
+}
+
+.container {
+  width: 1300px;
+  padding: 40px;
+  background: lavenderblush;
+  border: 1px solid;
+  box-shadow: 1px 1px 2px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background: white;
+  width: 900px;
+  margin: 10px auto;
+  padding: 25px;
+  box-shadow: 1px 1px 2px;
+  border: 1px solid;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-green {
+	background-color: hotpink;
+	color: white;
+	padding: 7.5px 15px;
+	border-radius: 4px;
+}
+
+.btn-green:hover {
+	background-color: violet;
+	color: white;
+}
+
+.img-circle { 
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline; 
+  padding: 0px 20px;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 1200px;
+  }
+  .card-white {
+    width: 1000px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 850px;
+  }
+  .card-white {
+    width: 750px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+  .card-white {
+    width: 500px;
+  }
+}
+
